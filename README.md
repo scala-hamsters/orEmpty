@@ -27,3 +27,13 @@ implicit val bigDecimalMonoid: Monoid[BigDecimal] = new Monoid[BigDecimal] {
   override def compose(l: BigDecimal, r: BigDecimal): BigDecimal = l + r
 }
 ```
+
+# Install
+
+Add this to you build.sbt : 
+
+```scala
+resolvers += Resolver.bintrayRepo("loicdescotte", "Hamsters") 
+libraryDependencies += "io.github.scala-hamsters" % "orEmpty" % "1.0.0"
+```
+
