@@ -1,5 +1,7 @@
 # Default values for options (orEmpty)
 
+This is a port of Hamsters orEmpty to Scala 2.13.
+
 Default values for options avoid repeating the same `getOrElse` code again and again : 
 
 ```scala
